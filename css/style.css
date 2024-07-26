@@ -2,7 +2,9 @@
     font-family: 'Raleway', sans-serif;
     scroll-behavior: smooth;
 }
-
+body {
+    overflow-x: hidden;
+}
 /******  Mes propriétés CSS  *****/
 
 /* header */
@@ -663,6 +665,7 @@ a {
         margin-bottom: -20px;
         padding-top: 20px;
         padding-bottom: 20px;
+        overflow: hidden;
     }
 
     .hebergements-and-populaires .hebergements {
@@ -730,4 +733,10 @@ a {
     }
 
     /* quelques changement*/
+    .field-form {
+        width: 100%;
+    }
+    .filtre {
+    place-content: start;
+    }
 }
